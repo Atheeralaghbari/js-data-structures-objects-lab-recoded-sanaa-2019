@@ -21,5 +21,6 @@ function deleteFromDriverByKey(dirver,key){
 function destructivelyDeleteFromDriverByKey(dirver,key){
  let dirver3=dirver;
  delete dirver3[key];
+ return dirver3;
  
 }
