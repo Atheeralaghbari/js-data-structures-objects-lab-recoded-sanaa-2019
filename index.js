@@ -9,23 +9,22 @@ function updateDriverWithKeyAndValue(driver, key, value){
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
-    let driver3= driver;
+    let driver2= driver;
     driver3[key]=value;
-    return driver3;
+    return driver2;
 }
 
 
 
 function deleteFromDriverByKey(driver, key){
-    let driver4 = Object.assign({},driver);
-    delete driver4[key];
-    console.log(driver4);
-    return driver4;
+    let driver3 = Object.assign({},driver);
+    delete driver3[key];
+    return driver3;
 }
 
 function destructivelyDeleteFromDriverByKey(driver, key){
-    let driver5=driver;
-    delete driver5[key];
-    return driver5;
+    let driver4=driver;
+    delete driver4[key];
+    return driver4;
 }
 
