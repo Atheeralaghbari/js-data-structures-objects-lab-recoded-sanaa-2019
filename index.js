@@ -14,11 +14,12 @@ function destructivelyUpdateDriverWithKeyAndValue(dirver,key,value){
   return dirver;
 }
 function deleteFromDriverByKey(dirver,key){
-  const dirver2 = Object.assign({}, dirver);
+  let dirver2 = Object.assign({}, dirver);
   delete dirver2[key];
    return dirver2;
 }
 function destructivelyDeleteFromDriverByKey(dirver,key){
  let dirver3=dirver;
  delete dirver3[key];
+ 
 }
