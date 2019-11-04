@@ -30,7 +30,6 @@ function deleteFromDriverByKey(driver, key){
 }
 deleteFromDriverByKey(driver, "age")
 
-
 function destructivelyDeleteFromDriverByKey(driver, key){
     let driver5=driver;
     delete driver5[key];
