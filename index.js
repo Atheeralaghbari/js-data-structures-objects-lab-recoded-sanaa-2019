@@ -14,8 +14,6 @@ function updateDriverWithKeyAndValue(driver, key, value){
 
 updateDriverWithKeyAndValue(driver, "name", "Ahmed");
 
-
-
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
     let driver3= driver;
     driver3[key]=value;
@@ -36,7 +34,6 @@ deleteFromDriverByKey(driver, "age")
 function destructivelyDeleteFromDriverByKey(driver, key){
     let driver5=driver;
     delete driver5[key];
-
     return driver5;
 }
 destructivelyDeleteFromDriverByKey(driver, "name")
