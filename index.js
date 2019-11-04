@@ -1,13 +1,13 @@
 // Write your solution in this file!
 
-
+const driver={color:"red",shape:"shpere"}
 function updateDriverWithKeyAndValue(driver, key, value){
     let driver1= Object.assign({}, driver, { [key]: value });
     return driver1;
     
 }
-updateDriverWithKeyAndValue({color:"red",shape:"circle"},"color","blue");
-
+updateDriverWithKeyAndValue(,"color","blue");
+console.log()
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
     let driver2= driver;
     driver2[key]=value;
