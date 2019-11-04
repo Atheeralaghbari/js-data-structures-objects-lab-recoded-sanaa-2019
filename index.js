@@ -1,8 +1,8 @@
 // Write your solution in this file!
 
 const driver={
-    name: "taghreed",
-    age: 26
+    name: "Atheer",
+    age: 24
 };
 
 function updateDriverWithKeyAndValue(driver, key, value){
@@ -13,8 +13,8 @@ function updateDriverWithKeyAndValue(driver, key, value){
 }
 
 updateDriverWithKeyAndValue(driver, "name", "Reham");
-//console.log(updateDriverWithKeyAndValue(drivers, "name", "Reham"))
-console.log(driver)
+
+
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
     let driver3= driver;
