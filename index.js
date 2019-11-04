@@ -15,5 +15,6 @@ function deleteFromDriverByKey(obj,key){
   delete newObj[key];
 }
 function destructivelyDeleteFromDriverByKey(obj,key){
- let newObj
+ let newObj=obj;
+ 
 }
