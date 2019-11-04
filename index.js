@@ -6,8 +6,8 @@ function updateDriverWithKeyAndValue(driver, key, value){
     return driver1;
     
 }
-updateDriverWithKeyAndValue(,"color","blue");
-console.log()
+updateDriverWithKeyAndValue(driver,"color","blue");
+console.log(driver);
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
     let driver2= driver;
     driver2[key]=value;
