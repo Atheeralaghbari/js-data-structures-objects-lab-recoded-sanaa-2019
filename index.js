@@ -5,6 +5,7 @@
     let driver1=Object.assign({},dirver,{[key]:value})
   return dirver1;
 }
+updateDriverWithKeyAndValue({name:"Ahmed",age:26}, "name", "Atheer");
 
 function destructivelyUpdateDriverWithKeyAndValue(dirver,key,value){
    let dirver4=dirver
